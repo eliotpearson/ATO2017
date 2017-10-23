@@ -1,4 +1,4 @@
-package ms.lucina.conless;
+package example;
 
 import org.glassfish.grizzly.http.server.HttpServer;
 import org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpServerFactory;
@@ -28,7 +28,7 @@ public class Main {
 		// create a resource config that scans for JAX-RS resources and
 		// providers
 		// in com.eliotpearson.conless package
-		final ResourceConfig rc = new ResourceConfig().packages("ms.lucina.conless");
+		final ResourceConfig rc = new ResourceConfig().packages("example");
 
 		loadSettings("zipcode.properties");
 

@@ -1,4 +1,4 @@
-package ms.lucina.conless;
+package example;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
